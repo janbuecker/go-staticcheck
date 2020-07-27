@@ -11,6 +11,6 @@ COPY docker-entrypoint.sh /docker-entrypoint.sh
 
 WORKDIR /app
 
-CMD ["/go/bin/staticcheck"]
+CMD ["staticcheck"]
 
 ENTRYPOINT ["/docker-entrypoint.sh"]
